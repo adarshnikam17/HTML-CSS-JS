@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <h5 style="color: rgb(17, 108, 56);"> Change my color </h5>
+    <button onclick="change()"> Click </button>
+
+
+    <h4>I like javascript</h4>
+    <button onclick="cc()">submit</button>
+
+    <h1>A simple heading </h1>
+    <button onclick="allChange()">All Change</button>
+     
+    <h3>Hiee</h3>
+    <button onclick="vk()"> CLICK</button>
+
+<br> <br>
+    <h2>PRANAV</h2>
+    <button onclick="hide()">Hide me</button>
+
+
+    <script>
+    function change(){
+        let color=document.querySelector('h5')
+        console.log(color)
+        color.style.color='red'
+    }
+        function cc(){
+            let txt=document.querySelector('h4').textContent='JavaScript is confusing'   
+            
+        }
+
+        function allChange(){
+           
+       document.querySelector('h1').style.background='black'
+       document.querySelector('h1').style.color='white'
+       document.querySelector('h1').textContent='Im am learning js'
+       //document.querySelector('h1').style.fontSize='20px'
+       
+        }
+
+        function vk(){
+            document.querySelector('body').style.background='red'
+
+        }
+
+        function hide(){
+            document.querySelector('h2').hidden=true
+        }
+    </script>
+    <script src="check.js"></script>
+</body>
+</html>

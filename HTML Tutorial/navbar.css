@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e284d;
+    padding: 10px 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #0d3773;
+    border-radius: 5px;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    gap: 10px;
+}

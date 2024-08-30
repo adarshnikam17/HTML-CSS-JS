@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background: aqua;
+    color: lightslategray;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 5s;
+}
+h1:hover{
+    color: cadetblue;
+    background-color: darkred;
+    font-size: 40px;
+}
+button{
+    color: rgb(224, 106, 106);
+    background-color: yellowgreen;
+}
+button:hover{
+    border: black solid 2px;
+    color: azure;
+    background-color: brown;
+    
+}

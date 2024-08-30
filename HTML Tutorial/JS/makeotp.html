@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    span{
+        font-size: 20px;
+        color: darkblue;
+    }
+</style>
+<body>
+   <p>Your one time password is <span> </span>pls use it carefully</p>
+   <button onclick="getOtp()">Generate otp</button>
+   <script>
+    let x=(Math.max(45,97,88,12,42))
+    console.log(x)
+   // console.log(Math.min(45,97,88,12,42))
+   // console.log(math.PI)
+   // console.log(Math.sqrt(16))
+   // console.log(Math.pow(16))
+    console.log(Math.random())
+    console.log(Math.floor(Math.random()*1000000))
+    let z=0.9440406931331287
+    console.log(z)
+
+
+    function getOtp(){
+        document.querySelector('span').textContent=Math.floor(Math.random()*1000000)
+    }
+
+   </script>
+</body>
+</html>

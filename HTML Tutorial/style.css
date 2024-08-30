@@ -1,0 +1,25 @@
+div {
+    background: rgb(193, 242, 15);
+    text-align: center;
+    height: 100px;
+}
+
+#a{
+    background: lightgreen;
+    text-decoration: underline;
+    font-style: italic;  
+}
+
+.vk{
+    color: deeppink;
+    text-align: left;
+}
+body{
+    text-align: center;
+}
+
+
+h3,p{
+    background-color: rgb(187, 220, 205);
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: aqua;
+            text-align: center;
+        }
+    </style>
+    <h1>I Know Js</h1>
+    <button onclick="fun()">Click me</button>
+    <script>
+        let line1=document.querySelector('h1')
+        console.log(line1)
+
+        function fun(){
+            if(line1.textContent=="I Know Js"){
+                line1.textContent="Js is fun"
+            }else{
+                line1.textContent="I Know Js"
+            }
+        }
+
+    </script>
+</body>
+</html>

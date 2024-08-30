@@ -1,0 +1,19 @@
+body{
+    background: lightblue;
+
+}
+.box{
+
+   height: 200px;
+   width: 200px;
+   background-color: blue;
+   border-radius: 50%;
+   margin-left: 39%;
+
+}
+button{
+    position: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: 2s;
+}
